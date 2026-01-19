@@ -23,7 +23,7 @@ public class ContagemDiarias {
 
         double valorTotal =  calculo(qtDiarias, tipo);
         System.out.println("valor Total:"+ valorTotal);
-pagamento(valorTotal);
+        pagamento(valorTotal);
 
     }
 
@@ -68,3 +68,4 @@ System.out.println("Valor total:" + (valorTotal*0.9));
 
     }
 }
+
